@@ -1,7 +1,8 @@
 import {useState} from 'react';
 
-const useToogle= () =>{
+export const useToogle= () =>{
     const [status, setStatus]= useState(false);
-    const toogleStatus = () => (previous => !previous);
-    return [status, toogleStatus];
+    const toogleStatus = () => setStatus((previous) => !previous);
+    console.log(status);
+    return {status, toogleStatus};
 }
