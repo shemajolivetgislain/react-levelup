@@ -5,8 +5,8 @@ import Tooglestatus from "./components/Tooglestatus";
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <Tooglestatus />
+
+      <Tooglestatus title="Reusable component" content= "here is how make reusable component"/>
     </div>
   );
 }
