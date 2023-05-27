@@ -1,5 +1,5 @@
 import "./App.css";
-import ExpenseItem from "./components/ExpenseItem";
+import React from "react";
 
 function App() {
   return (
